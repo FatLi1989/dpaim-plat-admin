@@ -1,12 +1,11 @@
 package com.jtsec.dpaim.plat.common.util.datahandle;
 
-import com.jtsec.common.exception.JtsecException;
-import com.jtsec.common.util.date.CommonTools;
-import com.jtsec.common.util.enums.ExceptionEnum;
+import com.jtsec.dpaim.plat.common.exception.JtsecException;
+import com.jtsec.dpaim.plat.common.util.date.CommonTools;
+import com.jtsec.dpaim.plat.common.util.enums.ExceptionEnum;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.beanutils.BeanUtils;
-
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -75,7 +74,7 @@ public class DataConvert {
 			map = DataConvert.convertMap (data);
 		} catch (IntrospectionException | InvocationTargetException | IllegalAccessException e) {
 			log.error (DataConvert.class + ":" + data.toString () + "转换异常", e.getMessage ());
-			throw new JtsecException (ExceptionEnum.SystemError.getCode ());
+			throw new JtsecException(ExceptionEnum.SystemError.getCode ());
 		}
 		return map;
 	}

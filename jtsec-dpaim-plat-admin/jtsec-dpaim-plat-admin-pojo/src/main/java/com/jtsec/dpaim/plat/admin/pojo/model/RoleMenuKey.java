@@ -1,7 +1,6 @@
 package com.jtsec.dpaim.plat.admin.pojo.model;
 
 import lombok.Data;
-
 import java.io.Serializable;
 
 /**

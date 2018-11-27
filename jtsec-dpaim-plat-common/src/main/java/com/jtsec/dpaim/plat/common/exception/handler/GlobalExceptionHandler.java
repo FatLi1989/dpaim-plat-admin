@@ -1,8 +1,8 @@
 package com.jtsec.dpaim.plat.common.exception.handler;
 
-import com.jtsec.common.exception.JtsecException;
-import com.jtsec.common.util.enums.ExceptionEnum;
-import com.jtsec.common.util.response.HttpResponse;
+import com.jtsec.dpaim.plat.common.exception.JtsecException;
+import com.jtsec.dpaim.plat.common.util.enums.ExceptionEnum;
+import com.jtsec.dpaim.plat.common.util.response.HttpResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
 	@ResponseBody
 	@ExceptionHandler (value = JtsecException.class)
 	public HttpResponse ExceptionHandler (Exception e) {
-		HttpResponse httpResponse = new HttpResponse ();
+		HttpResponse httpResponse = new HttpResponse();
 
 		if (e instanceof JtsecException) {
 			httpResponse.setCode (((JtsecException) e).getCode ());

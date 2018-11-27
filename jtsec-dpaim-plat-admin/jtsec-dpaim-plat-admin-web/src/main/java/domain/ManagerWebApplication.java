@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableDubboConfiguration
 @EnableTransactionManagement
-@ComponentScan (basePackages = {"com.jtsec.manager", "com.jtsec.common"})
-@MapperScan ("com.jtsec.manager.mapper")
+@ComponentScan (basePackages = {"com.jtsec.dpaim.plat.admin.controller", "com.jtsec.dpaim.plat.common"})
+@MapperScan ("com.jtsec.dpaim.plat.admin.mapper")
 public class ManagerWebApplication {
 
 	public static void main (String[] args) {

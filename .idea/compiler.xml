@@ -17,8 +17,8 @@
         <module name="jtsec-dpaim-plat-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jtsec-dpaim-plat" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="jtsec-dpaim-plat" target="8" />
       <module name="jtsec-dpaim-plat-admin" target="1.8" />
       <module name="jtsec-dpaim-plat-admin-mapper" target="1.8" />
       <module name="jtsec-dpaim-plat-admin-pojo" target="1.8" />
@@ -28,8 +28,7 @@
       <module name="jtsec-dpaim-plat-admin-service-imp" target="1.8" />
       <module name="jtsec-dpaim-plat-admin-shiro" target="1.8" />
       <module name="jtsec-dpaim-plat-admin-web" target="1.8" />
-      <module name="jtsec-dpaim-plat-common" target="1.5" />
-      <module name="jtsec-dpaim-plat-mapper" target="1.8" />
+      <module name="jtsec-dpaim-plat-common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
