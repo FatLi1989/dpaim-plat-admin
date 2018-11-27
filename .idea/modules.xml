@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-mapper/jtsec-dpaim-plat-admin-mapper.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-mapper/jtsec-dpaim-plat-admin-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-pojo/jtsec-dpaim-plat-admin-pojo.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-pojo/jtsec-dpaim-plat-admin-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-rpc-api/jtsec-dpaim-plat-admin-rpc-api.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-rpc-api/jtsec-dpaim-plat-admin-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-scheduler/jtsec-dpaim-plat-admin-scheduler.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-scheduler/jtsec-dpaim-plat-admin-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-service/jtsec-dpaim-plat-admin-service.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-service/jtsec-dpaim-plat-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-service-imp/jtsec-dpaim-plat-admin-service-imp.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-service-imp/jtsec-dpaim-plat-admin-service-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-shiro/jtsec-dpaim-plat-admin-shiro.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-shiro/jtsec-dpaim-plat-admin-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-web/jtsec-dpaim-plat-admin-web.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-admin/jtsec-dpaim-plat-admin-web/jtsec-dpaim-plat-admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtsec-dpaim-plat-common/jtsec-dpaim-plat-common.iml" filepath="$PROJECT_DIR$/jtsec-dpaim-plat-common/jtsec-dpaim-plat-common.iml" />
+    </modules>
+  </component>
+</project>

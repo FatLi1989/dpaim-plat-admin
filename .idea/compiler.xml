@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jtsec-dpaim-plat-admin-mapper" />
+        <module name="jtsec-dpaim-plat-admin-pojo" />
+        <module name="jtsec-dpaim-plat-admin-rpc-api" />
+        <module name="jtsec-dpaim-plat-admin-scheduler" />
+        <module name="jtsec-dpaim-plat-admin-service" />
+        <module name="jtsec-dpaim-plat-admin-service-imp" />
+        <module name="jtsec-dpaim-plat-admin-shiro" />
+        <module name="jtsec-dpaim-plat-admin-web" />
+        <module name="jtsec-dpaim-plat-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jtsec-dpaim-plat" target="1.5" />
+      <module name="jtsec-dpaim-plat-admin" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-mapper" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-pojo" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-rpc-api" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-scheduler" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-service" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-service-imp" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-shiro" target="1.8" />
+      <module name="jtsec-dpaim-plat-admin-web" target="1.8" />
+      <module name="jtsec-dpaim-plat-common" target="1.5" />
+      <module name="jtsec-dpaim-plat-mapper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
